@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+div {
+    text-align: center;
+    display: flex;
+}
+
+figure {
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    top: 60%;
+    left: 30%, 25%;
+   
+}
+
+footer {
+    text-align: center;
+    bottom: auto;
+}
+
+
+/*position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;*/

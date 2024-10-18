@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightblue;
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+.caixa, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 25px;
+}
+
+textarea {
+    height: 150px;
+}
