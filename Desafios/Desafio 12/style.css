@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-align: none;
+    padding: 20px;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
