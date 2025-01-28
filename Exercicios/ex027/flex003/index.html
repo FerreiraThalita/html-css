@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: royalblue;
+            height: 100px;
+            display: flex;
+            flex-flow: column wrap-reverse;
+        }
+
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+
+            flex:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">Exemplo de tabela A</div>
+        <div class="item">Exemplo de tabela B</div>
+        <div class="item">Exemplo de tabela C</div>
+        <div class="item">Exemplo de tabela D</div>
+        <div class="item">Exemplo de tabela E</div>
+        <div class="item">Exemplo de tabela F</div>
+        <div class="item">Exemplo de tabela G</div>
+    </div>
+</body>
+</html>
